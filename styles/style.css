@@ -56,3 +56,50 @@
      width: 100%;
      height: auto;
 }
+
+.section-1 {
+     display: flex;
+     width: 1000px;
+     align-items: center;
+     justify-content: space-between;
+     margin: 20px 250px;
+}
+
+.section-2 {
+     width: 1000px;
+     display: flex;
+     justify-content: space-evenly;
+     margin: 20px 250px;
+}
+
+.section-3 {
+     width: 1000px;
+     display: flex;
+     justify-content: space-evenly;
+     margin: 20px 250px;
+     padding: 0 0 0 20px;
+}
+
+.div-section {
+padding: 0 50px;
+margin: 20px 50px;
+}
+
+.background-section {
+     background-color: #cfffff;
+     width: device-width;
+     height: 300px;
+     margin: 50px 0;
+}
+
+.moon-1 {
+     width: 300px;
+     height: 200px;
+     margin: 50px 80px 20px 20px;
+}
+
+.moon-2 {
+     width: 300px;
+     height: 200px;
+     margin: 50px 0 20px 80px;
+}
