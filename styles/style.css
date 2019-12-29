@@ -103,3 +103,31 @@ margin: 20px 50px;
      height: 200px;
      margin: 50px 0 20px 80px;
 }
+
+.border-fieldset {
+     border: 2px solid #9fffff;
+}
+
+.color-legend {
+     color: #09ffff;
+     font-weight: bold;
+}
+
+.section-form {
+       display: flex;
+       flex-direction: column;       
+       align-items: center;
+       justify-content: center;
+}
+
+.select-option_label-input {
+display: flex;
+justify-content: space-between;
+}
+
+.background-section-form {
+         background-color: #cfffff;
+         width: device-width;
+         height: 400px;
+         margin: 50px 0;  
+}
