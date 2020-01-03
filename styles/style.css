@@ -37,6 +37,11 @@
         font-family: Verdana;
 }
 
+.font-size-22px-arial {
+        font-size: 22px;
+        font-family: Arial;
+}
+
 .font-size-16px {
         font-size: 16px;
 }
@@ -94,7 +99,7 @@
 }
 
 .background-section {
-        background-color: #cfffff;
+        background-color: #DCDCDC;
         width: device-width;
         height: 300px;
         margin: 50px 0;
@@ -113,16 +118,18 @@
 }
 
 .border-fieldset {
-        border: 2px solid #9fffff;
+        border: 2px solid #40E0D0;
 }
 
 .color-legend {
-        color: #09ffff;
+        color: #40E0D0;
         font-weight: bold;
+        font-size: 18px;
 }
 
 .section-form {
-        flex-direction: column;       
+        flex-direction: column;
+        padding: 0 0 20px 0;       
 }
 
 .select-option-label-input {
@@ -131,21 +138,21 @@
 }
 
 .background-section-form {
-        background-color: #cfffff;
+        background-color: #DCDCDC;
         width: device-width;
         height: 450px;
         margin: 50px 0 0 0;  
 }
 
 .background-footer {
-        background-color: #231531;
+        background-color: #261F2F;
         width: device-width;
         height: 160px;   
 }
 
 .footer {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         height: 160px;
 }
