@@ -6,8 +6,8 @@
         left: 0;
         background-color: #ffffff;
         padding: 0 10px;
-        font-size: 25px;
-        height: 70px;
+        font-size: 20px;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -37,9 +37,9 @@
         font-family: Verdana;
 }
 
-.font-size-22px-arial {
-        font-size: 22px;
-        font-family: Arial;
+.font-size-18px-tnr {
+        font-size: 18px;
+        font-family: Times New Roman;
 }
 
 .font-size-16px {
@@ -50,13 +50,17 @@
         color: #ffffff;
 }
 
+.text-black {
+        color: #000000;
+}
+
 .margin-0-20px {
          margin: 0 20px;
 }
 
 .wrapper {
         width: device-width;
-        height: 300px;
+        height: 360px;
 }
 
 .example {
@@ -74,7 +78,7 @@
         align-items: center;
         justify-content: space-between;
         margin: 0 250px;
-        padding: 50px 0 0 0;
+        padding: 40px 0 0 0;
 }
 
 .section-2 {
@@ -82,7 +86,7 @@
         display: flex;
         justify-content: space-evenly;
         margin: 0 250px;
-        padding: 30px 0 0 0;
+        padding: 30px 0;
 }
 
 .section-3 {
@@ -90,7 +94,7 @@
         display: flex;
         justify-content: space-evenly;
         margin: 0 250px;
-        padding: 30px 0 0 20px;
+        padding: 20px 0 0 20px;
 }
 
 .div-section {
@@ -101,20 +105,20 @@
 .background-section {
         background-color: #DCDCDC;
         width: device-width;
-        height: 300px;
-        margin: 50px 0;
+        height: 340px;
+        margin: 50px 0 0 0;
 }
 
 .moon-1 {
         width: 300px;
         height: 200px;
-        margin: 50px 80px 20px 20px;
+        margin: 45px 80px 0px 20px;
 }
 
 .moon-2 {
         width: 300px;
         height: 200px;
-        margin: 50px 0 20px 80px;
+        margin: 45px 0 20px 80px;
 }
 
 .border-fieldset {
