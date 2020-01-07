@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<body class="margin-0 font-family-arial">
 <header class="header">
     <div>
         <img src="images/logo.svg" alt="" width="45" height="45">
@@ -21,20 +21,18 @@
     </div>
 </header>
 
-<main>
-    <div class="block-1 flex-center">
+<main class="margin-top-60px">
+    <div class="flex-center">
         <div class="wrapper example flex-center">
             <img src="images/banner.png" alt="">
         </div>
-        <div class="block-1-1">
-            <img src="images/logo.svg" alt="" width="100" height="100"> 
-            <div class="margin-30px-0">
-                <div class="font-size-25px-verdana text-white">ЖК "Лунное море"</div>
-                <span class="font-size-16px text-white">Место, откуда не хочется улетать</span>
+        <div class="text-on-banner flex-direction-column">
+            <img src="images/logo.svg" alt="" width="120" height="120"> 
+            <div class="margin-30px-0 flex-direction-column">
+                <h1 class="text-white line-height-0 font-family-georgia">ЖК «Лунное море»</h1>
+                <div class="font-size-16px text-white text-align-center">Место, откуда не хочется улетать</div>
             </div>
-            <form action="#form">
-                <button class="border-radius">Забронировать</button>
-            </form>
+            <button class="border-radius button border-1px-solid text-white"><a href="#form" class="font-size-16px text-decoration-none text-white">Забронировать</a></button>
         </div>
     </div>
     <section class="section-1" id="benefits">
@@ -52,25 +50,25 @@
         </div>
     </section>
     <section class="background-section">
-        <div class="section-2 flex-center" id="about-company">
-            <div class="div-section">
-                <h2>О ЖК "Лунное море"</h2>
+        <div class="section-2" id="about-company">
+            <div class="margin-0-50px-50px-50px">
+                <h2>О ЖК «Лунное море»</h2>
                 <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется - современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                 <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
             </div>
             <div>
-                <img class="moon-1" src="images/moon-1.jpg" alt="">
+                <img class="moon" src="images/moon-1.jpg" alt="">
             </div>
         </div>
     </section>
     <section class="section-3" id="places-for-rest">
         <div>
-            <img class="moon-2" src="images/moon-2.jpg" alt="">
+            <img class="moon" src="images/moon-2.jpg" alt="">
         </div>
-        <div class="div-section">
+        <div class="margin-0-50px-50px-50px">
             <h2>Места для отдыха</h2>
             <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-            <p>Дома располагаются в новом районе "Лунные моря". При необходимости есть автобусы до района "Лунный материк".</p>
+            <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
         </div>
     </section>
     <section class="background-section-form section-form flex-center">
@@ -78,7 +76,7 @@
                 <form id="form">
                     <fieldset class="border-fieldset margin-bottom-20px">
                         <legend class="color-legend ">Параметры квартиры</legend>
-                        <span class="select-option-label-input margin-bottom-12px">Количество комнат:
+                        <span class="flex-space-between margin-bottom-12px">Количество комнат:
                         <select class="border-radius margin-left-20px">
                             <option disabled>Количество комнат:</option>
                             <option>1</option>
@@ -86,7 +84,7 @@
                             <option>3</option>
                         </select>
                         </span>
-                        <span class="select-option-label-input">Отделка:
+                        <span class="flex-space-between">Отделка:
                         <select class="border-radius">
                             <option disabled>Отделка:</option>
                             <option>Без отделки</option>
@@ -97,19 +95,19 @@
                     </fieldset>
                     <fieldset class="border-fieldset">
                         <legend class="color-legend">Контактная информация</legend> 
-                        <label class="select-option-label-input">Имя
-                            <input type="text" class="border-radius">
+                        <label class="flex-space-between">Имя
+                            <input type="text" class="border-radius border-1px-solid">
                         </label>
                         <p>
-                          <label class="select-option-label-input">Телефон
-                            <input type="tel" class="border-radius">
+                          <label class="flex-space-between">Телефон
+                            <input type="tel" class="border-radius border-1px-solid">
                           </label>
                         </p>
-                        <label class="select-option-label-input">E-mail
-                            <input type="email" class="border-radius">
+                        <label class="flex-space-between">E-mail
+                            <input type="email" class="border-radius border-1px-solid">
                         </label>
                     </fieldset>
-                    <p><button class="color-legend border-radius">Отправить</button></p>
+                    <p><button class="color-legend border-radius button border-1px-solid">Отправить</button></p>
                 </form>
     </section>
 </main>

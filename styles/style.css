@@ -22,12 +22,7 @@
         align-items: center; 
 }
 
-.block-1 {
-        width: device-width;  
-        flex-direction: column;   
-}
-
-.block-1-1 {
+.text-on-banner {
         position: absolute;
         top: 100px;
         display: flex;
@@ -35,9 +30,12 @@
         align-items: center;
 }
 
-.font-size-25px-verdana {
-        font-size: 25px;
-        font-family: Verdana;
+.font-family-arial {
+        font-family: Arial;
+}
+
+.font-family-georgia {
+        font-family: Georgia;
 }
 
 .font-size-20px {
@@ -52,6 +50,10 @@
         font-size: 16px;
 }
 
+.line-height-0 {
+        line-height: 0; 
+}
+
 .text-white {
         color: #ffffff;
 }
@@ -60,8 +62,16 @@
         color: #000000;
 }
 
+.margin-top-60px {
+        margin: 60px 0 0 0;
+}
+
+.margin-0 {
+        margin: 0;
+}
+
 .margin-0-20px {
-         margin: 0 20px;
+        margin: 0 20px;
 }
 
 .margin-left-20px {
@@ -81,7 +91,6 @@
 }
 
 .wrapper {
-        width: device-width;
         height: 360px;
 }
 
@@ -105,42 +114,38 @@
 
 .section-2 {
         width: 1000px;
+        height: 285px;
         display: flex;
         justify-content: space-evenly;
-        margin: 0 250px;
+        align-items: center;
+        margin: 0 260px;
         padding: 30px 0;
 }
 
 .section-3 {
         width: 1000px;
+        height: 300px;
         display: flex;
         justify-content: space-evenly;
-        margin: 0 250px;
-        padding: 20px 0 0 20px;
+        align-items: center;       
+        margin: 0 260px;
+        padding: 20px 0 15px 0;
 }
 
-.div-section {
-        padding: 0 50px;
-        margin: 20px 50px;
+.margin-0-50px-50px-50px {
+        margin: 0 50px 50px 50px;
 }
 
 .background-section {
         background-color: #DCDCDC;
-        width: device-width;
         height: 340px;
         margin: 50px 0 0 0;
 }
 
-.moon-1 {
+.moon {
         width: 300px;
         height: 200px;
-        margin: 45px 80px 0px 20px;
-}
-
-.moon-2 {
-        width: 300px;
-        height: 200px;
-        margin: 45px 0 20px 80px;
+        margin: 0 50px;
 }
 
 .border-fieldset {
@@ -158,22 +163,20 @@
         padding: 0 0 20px 0;       
 }
 
-.select-option-label-input {
+.flex-space-between {
         display: flex;
         justify-content: space-between;
 }
 
 .background-section-form {
         background-color: #DCDCDC;
-        width: device-width;
         height: 450px;
-        margin: 50px 0 0 0;  
+        margin: 0 0 0 0;  
 }
 
 .background-footer {
         background-color: #261F2F;
-        width: device-width;
-        height: 160px;   
+        height: 160px;
 }
 
 .footer {
@@ -185,7 +188,7 @@
 
 .text-decoration-none {
         text-decoration: none;
-}  
+}
 
 .border-radius {
         border-radius: 10px;  
@@ -194,12 +197,23 @@
 
 .vertical-align {
         vertical-align: 18px;
-}	
+}
 
 .text-align-center {
         text-align: center;
 }
+
 .flex-direction-column {
         display: flex;
         flex-direction: column; 
+
+}
+
+.button {
+        background-color: rgba(255, 255, 255, 0);
+        height: 35px;
+}
+
+.border-1px-solid {
+        border: 1px solid
 }
