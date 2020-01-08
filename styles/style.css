@@ -38,6 +38,10 @@
         font-family: Georgia;
 }
 
+.font-family-verdana {
+        font-family: Verdana;
+}
+
 .font-size-20px {
         font-size: 20px;
 }
@@ -48,6 +52,10 @@
 
 .font-size-16px {
         font-size: 16px;
+}
+
+.font-weight-bold {
+        font-weight: bold;
 }
 
 .line-height-0 {
@@ -90,45 +98,52 @@
         margin: 30px 0;
 }
 
-.wrapper {
+.margin-0-0-0-146px {
+        margin: 0 0 0 146px;
+}
+
+.margin-0-0-0-107px {
+        margin: 0 0 0 107px;
+}
+
+.margin-0-0-4px-0 {
+        margin: 0 0 4px 0;
+}
+
+.height-360px {
         height: 360px;
 }
 
-.example {
+.overflow-hidden {
         overflow: hidden;
 }
 
-.example img {
+.overflow-hidden img {
         width: 100%;
         height: auto;
 }
 
-.section-1 {
-        display: flex;
+.benefits {
         width: 1000px;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 250px;
-        padding: 40px 0 0 0;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
 }
 
-.section-2 {
+.about-company {
         width: 1000px;
         height: 285px;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
-        margin: 0 260px;
+        margin: 0 300px;
         padding: 30px 0;
 }
 
-.section-3 {
+.places-for-rest {
         width: 1000px;
         height: 300px;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;       
-        margin: 0 260px;
+        align-items: center;
         padding: 20px 0 15px 0;
 }
 
@@ -139,7 +154,6 @@
 .background-section {
         background-color: #DCDCDC;
         height: 340px;
-        margin: 50px 0 0 0;
 }
 
 .moon {
@@ -170,20 +184,19 @@
 
 .background-section-form {
         background-color: #DCDCDC;
-        height: 450px;
-        margin: 0 0 0 0;  
+        height: 450px;  
 }
 
 .background-footer {
         background-color: #261F2F;
-        height: 160px;
+        height: 200px;
 }
 
 .footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 160px;
+        height: 200px;
 }
 
 .text-decoration-none {
@@ -212,8 +225,25 @@
 .button {
         background-color: rgba(255, 255, 255, 0);
         height: 35px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
 }
 
 .border-1px-solid {
-        border: 1px solid
+        border: 1px solid;
+}
+
+.width-200px-height-30px {
+        width: 200px;
+        height: 30px;
+}
+
+.width-130px-height-30px {
+        width: 130px;
+        height: 30px;
+}
+
+.justify-content-flex-start {
+        justify-content: flex-start;
 }

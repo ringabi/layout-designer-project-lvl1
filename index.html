@@ -23,7 +23,7 @@
 
 <main class="margin-top-60px">
     <div class="flex-center">
-        <div class="wrapper example flex-center">
+        <div class="height-360px overflow-hidden flex-center">
             <img src="images/banner.png" alt="">
         </div>
         <div class="text-on-banner flex-direction-column">
@@ -32,60 +32,62 @@
                 <h1 class="text-white line-height-0 font-family-georgia">ЖК «Лунное море»</h1>
                 <div class="font-size-16px text-white text-align-center">Место, откуда не хочется улетать</div>
             </div>
-            <button class="border-radius button border-1px-solid text-white"><a href="#form" class="font-size-16px text-decoration-none text-white">Забронировать</a></button>
+            <a href="#form" class="border-radius button border-1px-solid font-size-16px text-decoration-none text-white">Забронировать</a>
         </div>
     </div>
-    <section class="section-1" id="benefits">
-        <div>  
-            <h2>Уникальный вид</h2>
-            <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
-        </div> 
-        <div class="margin-0-20px">
-            <h2>Инфраструктура</h2>
-            <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
-        </div>
-        <div>
-            <h2>Близость к Москве</h2>
-            <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
-        </div>
-    </section>
-    <section class="background-section">
-        <div class="section-2" id="about-company">
-            <div class="margin-0-50px-50px-50px">
-                <h2>О ЖК «Лунное море»</h2>
-                <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется - современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-                <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+    <div class="flex-direction-column flex-center">
+        <section class="benefits" id="benefits">
+            <div>  
+                <h2>Уникальный вид</h2>
+                <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+            </div> 
+            <div class="margin-0-20px">
+                <h2>Инфраструктура</h2>
+                <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
             </div>
             <div>
-                <img class="moon" src="images/moon-1.jpg" alt="">
+                <h2>Близость к Москве</h2>
+                <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
             </div>
-        </div>
-    </section>
-    <section class="section-3" id="places-for-rest">
-        <div>
-            <img class="moon" src="images/moon-2.jpg" alt="">
-        </div>
-        <div class="margin-0-50px-50px-50px">
-            <h2>Места для отдыха</h2>
-            <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-            <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-        </div>
-    </section>
+        </section>
+        <section class="background-section">
+            <div class="about-company" id="about-company">
+                <div class="margin-0-50px-50px-50px">
+                    <h2>О ЖК «Лунное море»</h2>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется - современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
+                    <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+                </div>
+                <div>
+                    <img class="moon" src="images/moon-1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="places-for-rest" id="places-for-rest">
+            <div>
+                <img class="moon" src="images/moon-2.jpg" alt="">
+            </div>
+            <div class="margin-0-50px-50px-50px">
+                <h2>Места для отдыха</h2>
+                <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+                <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+            </div>
+        </section>
+    </div>
     <section class="background-section-form section-form flex-center">
                 <h2 class="text-align-center">Оставьте заявку сегодня!</h2>
                 <form id="form">
                     <fieldset class="border-fieldset margin-bottom-20px">
                         <legend class="color-legend ">Параметры квартиры</legend>
-                        <span class="flex-space-between margin-bottom-12px">Количество комнат:
-                        <select class="border-radius margin-left-20px">
+                        <span  class="flex-center font-weight-bold margin-bottom-12px justify-content-flex-start">Количество комнат:
+                        <select class="border-radius border-1px-solid margin-left-20px width-130px-height-30px">
                             <option disabled>Количество комнат:</option>
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                         </select>
                         </span>
-                        <span class="flex-space-between">Отделка:
-                        <select class="border-radius">
+                        <span class="flex-center font-weight-bold justify-content-flex-start">Отделка:
+                        <select class="border-radius border-1px-solid width-130px-height-30px margin-0-0-0-107px">
                             <option disabled>Отделка:</option>
                             <option>Без отделки</option>
                             <option>Черновая отделка</option>
@@ -95,16 +97,16 @@
                     </fieldset>
                     <fieldset class="border-fieldset">
                         <legend class="color-legend">Контактная информация</legend> 
-                        <label class="flex-space-between">Имя
-                            <input type="text" class="border-radius border-1px-solid">
+                        <label class="flex-space-between flex-center font-weight-bold">Имя
+                            <input type="text" class="border-radius border-1px-solid width-200px-height-30px margin-0-0-0-146px">
                         </label>
                         <p>
-                          <label class="flex-space-between">Телефон
-                            <input type="tel" class="border-radius border-1px-solid">
+                          <label class="flex-space-between flex-center font-weight-bold">Телефон
+                            <input type="tel" class="border-radius border-1px-solid width-200px-height-30px">
                           </label>
                         </p>
-                        <label class="flex-space-between">E-mail
-                            <input type="email" class="border-radius border-1px-solid">
+                        <label class="flex-space-between flex-center font-weight-bold">E-mail
+                            <input type="email" class="border-radius border-1px-solid width-200px-height-30px">
                         </label>
                     </fieldset>
                     <p><button class="color-legend border-radius button border-1px-solid">Отправить</button></p>
@@ -121,15 +123,15 @@
             </div>
             <p>&reg; 2032 год</p>
         </div>
-        <div> <p class="font-size-20px text-white">Проектная документация</p>
+        <div> <p class="font-family-verdana font-size-20px text-white">Проектная документация</p>
             <ul class="text-white">
-                <li><a href="" class="text-decoration-none font-size-16px text-white">Скачать</a></li>
+                <li class="margin-0-0-4px-0"><a href="" class="text-decoration-none font-size-16px text-white">Скачать</a></li>
                 <li><a href="" class="text-decoration-none font-size-16px text-white">Посмотреть на сайте</a></li>
             </ul>
         </div>
-        <div><p class="font-size-20px text-white">О застройщике</p>
+        <div><p class="font-family-verdana font-size-20px text-white">О застройщике</p>
             <ul class="text-white">
-                <li><a href="" class="text-decoration-none font-size-16px text-white">Отзывы</a></li>
+                <li class="margin-0-0-4px-0"><a href="" class="text-decoration-none text-white">Отзывы</a></li>
                 <li><a href="" class="text-decoration-none font-size-16px text-white">Сайт компании</a></li>
             </ul>    
         </div>
