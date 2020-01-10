@@ -19,11 +19,6 @@
         align-items: center; 
 }
 
-.position-absolute-top-100px {
-        position: absolute;
-        top: 100px;
-}
-
 .font-family-arial {
         font-family: Arial;
 }
@@ -104,17 +99,8 @@
         margin: 0 0 4px 0;
 }
 
-.height-360px {
-        height: 360px;
-}
-
-.overflow-hidden {
-        overflow: hidden;
-}
-
-.overflow-hidden img {
-        width: 100%;
-        height: auto;
+.banner {
+background: no-repeat bottom -155px right 0/104% url(../images/banner.png) #DCDCDC;
 }
 
 .width-and-padding {
@@ -147,17 +133,21 @@
         padding: 50px 0;       
 }
 
+.padding-35px-0 {
+        padding: 35px 0;
+}
+
 .flex-space-between {
         display: flex;
         justify-content: space-between;
 }
 
 .background-section {
-        background-color: #DCDCDC;  
+        background-color: #f7f7f7;  
 }
 
 .background-footer {
-        background-color: #261F2F;
+        background-color: #303846;
         height: 200px;
 }
 
