@@ -4,7 +4,7 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
   padding: 0 10px;
   height: 60px;
 }
@@ -52,15 +52,15 @@
 }
 
 .text-white {
-  color: #ffffff;
+  color: var(--primary-color);
 }
 
 .text-black {
-  color: #000000;
+  color: var(--secondary-color);
 }
 
 .mt-60 {
-  margin: 60px 0 0 0;
+  margin-top: 60px;
 }
 
 .m-0 {
@@ -72,15 +72,15 @@
 }
 
 .ml-20 {
-  margin: 0 0 0 20px;
+  margin-left: 20px;
 }
 
 .mb-20 {
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .mb-12 {
-  margin: 0 0 12px 0; 
+  margin-bottom: 12px; 
 }
 
 .my-15 {
@@ -88,22 +88,22 @@
 }
 
 .ml-146 {
-  margin: 0 0 0 146px;
+  margin-left: 146px;
 }
 
 .ml-107 {
-  margin: 0 0 0 107px;
+  margin-left: 107px;
 }
 
 .mb-4 {
-  margin: 0 0 4px 0;
+  margin-bottom: 4px;
 }
 
 .banner {
-  background: no-repeat bottom -155px right 0/104% url(../images/banner.png) #DCDCDC;
+  background: no-repeat bottom -155px right 0/104% url(../images/banner.png) var(--background-banner);
 }
 
-.width-and-padding {
+.section {
   width: 1000px;
   padding: 40px 0;
   margin: 0 auto;
@@ -120,11 +120,11 @@
 }
 
 .border-fieldset {
-  border: 2px solid #40E0D0;
+  border: 2px solid var(--form-color);
 }
 
 .color-legend {
-  color: #40E0D0;
+  color: var(--form-color);
   font-weight: bold;
   font-size: 18px;
 }
@@ -143,11 +143,11 @@
 }
 
 .background-section {
-  background-color: #f7f7f7;  
+  background-color: var(--background-light);  
 }
 
 .background-footer {
-  background-color: #303846;
+  background-color: var(--background-dark);
   height: 200px;
 }
 
@@ -163,8 +163,7 @@
 }
 
 .border-radius {
-  border-radius: 10px;  
-  height: 30px;
+  border-radius: 10px;
 }
 
 .vertical-align {
@@ -192,20 +191,28 @@
   border: 1px solid;
 }
 
-.square-200-30 {
-  width: 200px;
-  height: 30px;
-}
-
-.square-140-30 {
-  width: 140px;
-  height: 30px;
-}
-
 .justify-content-flex-start {
   justify-content: flex-start;
 }
 
-.background-white {
-  background: white;
+.select {
+  width: 140px;
+  height: 30px;
+  background: var(--primary-color);
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  background: var(--primary-color);
+  padding: 0 5px;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+  --background-light: #f7f7f7;
+  --background-dark: #303846;
+  --form-color: #40E0D0;
+  --background-banner: #DCDCDC;
 }
