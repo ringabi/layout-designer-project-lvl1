@@ -23,10 +23,10 @@
 
 <main class="mt-60">
     <section id="banner" class="banner flex-direction-column flex-center py-35">
-        <img src="images/logo.svg" alt="" width="110" height="110"> 
-        <div class="my-15">
-            <h1 class="font-family-verdana text-white line-height-0 text-align-center">ЖК «Лунное море»</h1>
-            <div class="font-size-14px text-white text-align-center">Место, откуда не хочется улетать</div>
+        <img src="images/logo.svg" alt="" width="120" height="120">
+        <div class="mb-20">
+            <h1 class="font-size-36px text-white text-align-center mt-15 mb-4">ЖК «Лунное море»</h1>
+            <div class="font-size-16px text-white text-align-center">Место, откуда не хочется улетать</div>
         </div>
         <a href="#form" class="border-radius button border-1px-solid font-size-16px text-decoration-none text-white">Забронировать</a>
     </section>
@@ -44,7 +44,7 @@
             <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
         </div>
     </section>
-    <section id="about-company" class="background-section">
+    <section id="about-company" class="bg-light">
         <div class="section flex-center">      
             <div class="mx-50-b-50">
                 <h2>О ЖК «Лунное море»</h2>
@@ -52,13 +52,13 @@
                 <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
             </div>
             <div>
-                <img class="moon" src="images/moon-1.jpg" alt="">
+                <img class="square-300-200 mx-50" src="images/moon-1.jpg" alt="">
             </div>
         </div>            
     </section>
     <section id="places-for-rest" class="section flex-center">
         <div>
-            <img class="moon" src="images/moon-2.jpg" alt="">
+            <img class="square-300-200 mx-50" src="images/moon-2.jpg" alt="">
         </div>
         <div class="mx-50-b-50">
             <h2>Места для отдыха</h2>
@@ -66,32 +66,35 @@
             <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
         </div>
     </section>
-    <section id="form" class="background-section flex-direction-column flex-center py-50">
+    <section id="form" class="bg-light flex-direction-column flex-center py-50">
         <h2 class="text-align-center">Оставьте заявку сегодня!</h2>
         <form>
             <fieldset class="border-fieldset mb-20">
                 <legend class="color-legend ">Параметры квартиры</legend>
-                <span  class="flex-center font-weight-bold mb-12 justify-content-flex-start">Количество комнат:
-                    <select class="select border-radius border-1px-solid ml-20">
+                <div  class="flex-center font-weight-bold mb-12 justify-content-flex-start">
+                    <span class="width-200">Количество комнат:</span>
+                    <select class="select border-radius border-1px-solid">
                        <option disabled>Количество комнат:</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                </span>
-                <span class="flex-center font-weight-bold justify-content-flex-start">Отделка:
-                    <select class="select border-radius border-1px-solid ml-107">
+                </div>
+                <div class="flex-center font-weight-bold justify-content-flex-start">
+                    <span class="width-200">Отделка:</span>
+                    <select class="select border-radius border-1px-solid">
                         <option disabled>Отделка:</option>
                         <option>Без отделки</option>
                         <option>Черновая отделка</option>
                         <option>Чистовая отделка</option>
                     </select>
-                </span>
+                </div>
             </fieldset>
             <fieldset class="border-fieldset">
                 <legend class="color-legend">Контактная информация</legend> 
-                <label class="flex-space-between flex-center font-weight-bold">Имя
-                    <input type="text" class="input border-radius border-1px-solid ml-146">
+                <label class="flex-space-between flex-center font-weight-bold">
+                    <span class="width-200">Имя</span>
+                    <input type="text" class="input border-radius border-1px-solid">
                 </label>
                 <p>
                   <label class="flex-space-between flex-center font-weight-bold">Телефон
@@ -107,7 +110,7 @@
     </section>
 </main>
 
-<footer class="background-footer">  
+<footer class="bg-dark">  
     <div class="footer">
         <div class="font-size-16px text-white flex-direction-column">
             <div>
