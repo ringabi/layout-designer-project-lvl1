@@ -1,10 +1,13 @@
 :root {
+  --default-font-size: 16px;
   --primary-color: white;
   --secondary-color: black;
   --background-light: #f7f7f7;
   --background-dark: #303846;
   --form-color: #40E0D0;
   --background-banner: #DCDCDC;
+  --height-header: 60px;
+  --height-footer: 200px;
 }
 
 .select {
@@ -18,6 +21,12 @@
   height: 30px;
   background: var(--primary-color);
   padding: 0 5px;
+}
+
+.legend {
+  color: var(--form-color);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .button {
@@ -35,7 +44,7 @@
   left: 0;
   background-color: var(--primary-color);
   padding: 0 10px;
-  height: 60px;
+  height: var(--height-header);
 }
 
 .banner {
@@ -52,7 +61,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
+  height: var(--height-footer);
 }
 
 .font-family-arial {
@@ -63,16 +72,16 @@
   font-family: Verdana, sans-serif;
 }
 
-.font-size-20px {
-  font-size: 20px;
+.default-font-size {
+  font-size: var(--default-font-size);
 }
 
 .font-size-18px {
   font-size: 18px;
 }
 
-.font-size-16px {
-  font-size: 16px;
+.font-size-20px {
+  font-size: 20px;
 }
 
 .font-size-36px {
@@ -91,8 +100,16 @@
   color: var(--secondary-color);
 }
 
-.mt-60 {
-  margin-top: 60px;
+.bg-light {
+  background-color: var(--background-light);  
+}
+
+.bg-dark {
+  background-color: var(--background-dark);
+}
+
+.mt-height-header {
+  margin-top: var(--height-header);
 }
 
 .mt-15 {
@@ -104,11 +121,22 @@
 }
 
 .mx-20 {
-  margin: 0 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .mx-50 {
-  margin: 0 50px;
+  margin-right: 50px;
+  margi-left: 50px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mb-20 {
@@ -119,28 +147,23 @@
   margin-bottom: 12px; 
 }
 
-.my-20 {
-  margin: 20px 0;
-}
-
 .mb-4 {
   margin-bottom: 4px;
 }
 
-.mx-50-b-50 {
-  margin: 0 50px 50px 50px;
-}
-
 .px-16 {
-  padding: 0 16px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .py-50 {
-  padding: 50px 0;       
+  padding-top: 50px;
+  padding-bottom: 50px;    
 }
 
 .py-35 {
-  padding: 35px 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .square-300-200 {
@@ -156,24 +179,6 @@
   border: 2px solid var(--form-color);
 }
 
-.color-legend {
-  color: var(--form-color);
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.bg-light {
-  background-color: var(--background-light);  
-}
-
-.bg-dark {
-  background-color: var(--background-dark);
-}
-
-.text-decoration-none {
-  text-decoration: none;
-}
-
 .border-1px-solid {
   border: 1px solid;
 }
@@ -182,7 +187,11 @@
   border-radius: 10px;
 }
 
-.vertical-align {
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.vertical-align-18 {
   vertical-align: 18px;
 }
 
