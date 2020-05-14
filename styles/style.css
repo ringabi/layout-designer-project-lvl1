@@ -7,6 +7,11 @@
   --form-color: #40E0D0;
   --background-banner: #DCDCDC;
   --height-header: 60px;
+  --width-logo-banner: 120px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .select {
@@ -39,7 +44,7 @@
 .header {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 0; 
   left: 0;
   background-color: var(--primary-color);
   padding: 0 10px;
@@ -172,6 +177,10 @@
   width: 200px;
 }
 
+.width-logo-banner {
+  width: var(--width-logo-banner);
+}
+
 .border-fieldset {
   border: 2px solid var(--form-color);
 }
@@ -182,10 +191,6 @@
 
 .border-radius {
   border-radius: 10px;
-}
-
-.text-decoration-none {
-  text-decoration: none;
 }
 
 .vertical-align-18 {
@@ -215,4 +220,172 @@
 .justify-content-start {
   display: flex;
   justify-content: flex-start;
+}
+
+@media(max-width: 1023px) {
+  :root {
+    --width-logo-banner: 88px;
+  }
+
+  .section {
+    width: 768px;
+  }
+  
+  .mx-20-md {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .flex-wrap-md {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 767px) {
+  :root {
+    --height-header: 130px;
+    --width-logo-banner: 55px;
+  }
+
+  .font-size-36px {
+    font-size: 30px;
+  }
+
+  .banner {
+    background: no-repeat bottom 0 right 0/104% url(../images/banner.png) var(--background-banner);
+  }
+
+  .flex-direction-column-md {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-items-start-sm {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .flex-wrap-sm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 425px;
+  }
+
+  .input {
+    width: 175px;
+  }
+
+  .footer {
+    align-items: flex-start;
+  }
+
+  .mt-20-sm {
+    margin-top: 20px;
+  }
+
+  .ml-20-sm {
+    margin-left: 20px;
+  }
+
+  .pb-20-sm {
+    padding-bottom: 20px;
+  }
+
+  .py-35 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .order-1 {
+    display: flex;
+    order: 1;
+  }
+
+  .order-2 {
+    display: flex;
+    order: 2;
+  }
+}
+
+@media(max-width: 424px) {
+  :root {
+    --width-logo-banner: 50px;
+  }
+
+  .section {
+    width: 375px;
+  }
+
+  .font-size-36px {
+    font-size: 28px;
+  }
+
+  .input {
+    width: 125px;
+  }
+	
+  .mx-50 {
+    margin-right: 37.5px;
+    margin-left: 37.5px;
+  }
+
+  .py-35 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+}
+
+@media(max-width: 374px) {
+  :root {
+    --height-header: 200px;
+    --width-logo-banner: 45px;
+    --default-font-size: 14px;
+  }
+
+  .section {
+    width: 320px;
+  }
+
+  .input {
+    width: 105px;
+  }
+
+  .width-200 {
+    width: 160px;
+  }
+
+  .legend {
+    font-size: 16px;
+  }
+
+  .select {
+   width: 120px;
+  }
+
+  .font-size-36px {
+    font-size: 24px;
+  }
+
+  .mx-50 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .py-35 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+	
+  .px-16 {
+    padding-left: 0;
+  }
+
+  .flex-direction-column-sm {
+    display: flex;
+    flex-direction: column;
+  }
 }
