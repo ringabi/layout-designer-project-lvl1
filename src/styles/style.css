@@ -44,17 +44,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Neucha', sans-serif;
-  font-size: 60px;
-  line-height: 1.2em;
-  font-weight: normal;
   color: var(--primary-color);
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
 h3 {
+  font-weight: normal;
   font-size: 34px;
   line-height: 1.2em;
-  font-weight: normal;
 }
 
 h4 {
@@ -64,13 +64,12 @@ h4 {
 
 .container {
   width: 1110px;
-  padding: 100px 0;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 .container-input {
   box-sizing: border-box;
-  widt: 100%;
   height: 190px;
   margin: 0 auto;
   padding: 0 55px;
@@ -80,16 +79,18 @@ h4 {
 
 .background {
   width: 100%;
+
+  background-image: url(./../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background: url(./../images/background.png);
 
   opacity: 0.9;
 }
 
 .background-header {
-  background: no-repeat url("./../images/background.png"),
-  no-repeat top 38px right -142px url("./../images/main.png");
+  background:
+    no-repeat url("./../images/background.png"),
+    no-repeat top 38px right -142px url("./../images/main.png");
 }
 
 .bg-light {
@@ -110,25 +111,26 @@ h4 {
 
 .button {
   padding: 12px 24px;
+
   color: var(--white);
+  text-transform: uppercase;
 
   background-color: var(--primary-color);
-  text-transform: uppercase;
 }
 
 .input {
   width: 423px;
-  height: 50px;
+  padding: 15px;
+
   background: var(--white);
-  padding: 0 5px;
 }
 
 .send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 70px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   background: var(--primary-color);
 }
@@ -179,9 +181,8 @@ h4 {
 
 .columns-2 {
   column-count: 2;
-  column-width: 440px;
   column-gap: 30px;
-  breakinside: avoid;
+  column-width: 440px;
 }
 
 .column-span-all {
@@ -344,7 +345,7 @@ h4 {
   margin-left: 20px;
 }
 
-@media(max-width: 1023px) {
+@media (max-width: 1023px) {
   :root {
     --width-logo-banner: 88px;
   }
@@ -352,7 +353,7 @@ h4 {
   .section {
     width: 768px;
   }
-  
+
   .mx-20-md {
     margin-right: 20px;
     margin-left: 20px;
@@ -364,7 +365,7 @@ h4 {
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   :root {
     --height-header: 130px;
     --width-logo-banner: 55px;
@@ -429,7 +430,7 @@ h4 {
   }
 }
 
-@media(max-width: 424px) {
+@media (max-width: 424px) {
   :root {
     --width-logo-banner: 50px;
   }
@@ -441,7 +442,7 @@ h4 {
   .font-size-36px {
     font-size: 28px;
   }
-	
+
   .mx-50 {
     margin-right: 37.5px;
     margin-left: 37.5px;
@@ -453,7 +454,7 @@ h4 {
   }
 }
 
-@media(max-width: 374px) {
+@media (max-width: 374px) {
   :root {
     --height-header: 200px;
     --width-logo-banner: 45px;
@@ -473,7 +474,7 @@ h4 {
   }
 
   .select {
-   width: 120px;
+    width: 120px;
   }
 
   .font-size-36px {
@@ -489,7 +490,7 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-	
+
   .px-16 {
     padding-left: 0;
   }

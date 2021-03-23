@@ -1,0 +1,25 @@
+{
+  "name": "layout-designer-project-lvl1",
+  "version": "1.0.0",
+  "description": "[![hexlet-check](https://github.com/ringabi/layout-designer-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ringabi/layout-designer-project-lvl1/actions/workflows/hexlet-check.yml)",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringabi/layout-designer-project-lvl1.git"
+  },
+  "author": "Rinat Gabidullin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringabi/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ringabi/layout-designer-project-lvl1#readme",
+  "devDependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
