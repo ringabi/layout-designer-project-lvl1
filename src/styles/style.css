@@ -90,6 +90,7 @@ h4 {
   background-image: url(./../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.06;
 }
 
 .background-header {
@@ -100,6 +101,7 @@ h4 {
 
 .bg-light {
   background-color: var(--light);
+  opacity: 0.9;
 }
 
 .bg-primary-dark {
@@ -108,6 +110,7 @@ h4 {
 
 .bg-brown {
   background-color: var(--brown);
+  opacity: 0.9;
 }
 
 .bg-white {
