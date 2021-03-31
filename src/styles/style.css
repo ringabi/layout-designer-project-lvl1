@@ -74,6 +74,12 @@ h4 {
   padding: 100px 0;
 }
 
+.container-header {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0 107px 0;
+}
+
 .container-input {
   box-sizing: border-box;
   width: 1110px;
@@ -312,12 +318,16 @@ h4 {
   position: relative;
 }
 
-.b-neg-100px {
-  bottom: -100px;
+.border-0 {
+  border: 0;
 }
 
 .m-0 {
   margin: 0;
+}
+
+.m-30--200-auto {
+  margin: 30px auto -200px auto;
 }
 
 .m-0-auto {
@@ -360,8 +370,12 @@ h4 {
   margin-top: 9px;
 }
 
-.mb-50 {
-  margin-bottom: 50px;
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mb-57 {
+  margin-bottom: 57px;
 }
 
 .mb-40 {
@@ -382,6 +396,10 @@ h4 {
 
 .ml-20 {
   margin-left: 20px;
+}
+
+.p-100-0 {
+  padding: 100px 0;
 }
 
 @media (max-width: 1023px) {
