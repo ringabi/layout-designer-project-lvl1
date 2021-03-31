@@ -95,7 +95,7 @@ h4 {
 .background-header {
   background:
     no-repeat url("./../images/background.png"),
-    no-repeat top 42px right -142px url("./../images/main.png") rgba(245, 244, 240, 1.0);
+    no-repeat top 45px right -96px/75% url("./../images/main.png") rgba(245, 244, 240, 1.0);
 }
 
 .bg-light {
