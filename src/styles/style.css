@@ -246,8 +246,8 @@ h4 {
   line-height: 1.2em;
 }
 
-.line-height-64 {
-  line-height: 64px;
+.line-height-100 {
+  line-height: 1em;
 }
 
 .text-primary {
@@ -402,44 +402,105 @@ h4 {
   padding: 100px 0;
 }
 
-@media (max-width: 1023px) {
-  :root {
-    --width-logo-banner: 88px;
-  }
-
-  .section {
-    width: 768px;
-  }
-
-  .mx-20-md {
-    margin-right: 20px;
-    margin-left: 20px;
+@media (max-width: 1120px) {
+  .container,
+  .container-header,
+  .container-input {
+    width: 968px;
   }
 
   .flex-wrap-md {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .justify-content-center-md {
+    justify-content: center;
+  }
+
+  .mt-20-md {
+    margin-top: 20px;
+  }
 }
 
-@media (max-width: 767px) {
-  :root {
-    --height-header: 130px;
-    --width-logo-banner: 55px;
+@media (max-width: 1090px) {
+  #premature-optimization h2,
+  #hyperbolic-depreciation h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container,
+  .container-header,
+  .container-input,
+  .w-919,
+  iframe {
+    width: 740px;
   }
 
-  .font-size-36px {
-    font-size: 30px;
-  }
-
-  .flex-direction-column-md {
-    display: flex;
+  .f-direction-column-md {
     flex-direction: column;
   }
 
-  .align-items-start-sm {
+  footer h3 {
+    font-size: 25px;
+  }
+
+  .mt-185 {
+    margin-top: 30px;
+  }
+
+  .ml-0-md {
+    margin-left: 0;
+  }
+
+  .w-540 {
+    width: 100%;
+  }
+
+  .order-1-md {
     display: flex;
-    align-items: flex-start;
+    order: 1;
+  }
+
+  .order-2-md {
+    display: flex;
+    order: 2;
+  }
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2,
+  #premature-optimization h2,
+  #hyperbolic-depreciation h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .container,
+  .container-header,
+  .container-input,
+  .w-919,
+  .input,
+  iframe {
+    width: 405px;
+  }
+
+  section img {
+    width: 405px;
+    height: 303px;
+  }
+
+  .send {
+    margin: 0 auto;
   }
 
   .flex-wrap-sm {
@@ -447,113 +508,112 @@ h4 {
     flex-wrap: wrap;
   }
 
-  .section {
-    width: 425px;
+  .p-100-0 {
+    padding: 30px 0;
   }
 
-  .input {
-    width: 175px;
+  .container {
+    padding: 50px 0;
   }
 
-  .footer {
-    align-items: flex-start;
+  .container-input {
+    height: 290px;
+    margin: 0 auto 20px auto;
+  }
+
+  .font-size-64 {
+    font-size: 47px;
+  }
+
+  .font-size-52 {
+    font-size: 38px;
+  }
+
+  .font-size-34 {
+    font-size: 24px;
+  }
+
+  .text-center-sm {
+    text-align: center;
+  }
+
+  .justify-content-center-sm {
+    justify-content: center;
+  }
+
+  .mt-90 {
+    margin-top: 20px;
+  }
+
+  .mt-76 {
+    margin-top: 0;
   }
 
   .mt-20-sm {
     margin-top: 20px;
   }
 
-  .ml-20-sm {
-    margin-left: 20px;
-  }
-
-  .pb-20-sm {
-    padding-bottom: 20px;
-  }
-
-  .py-35 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  .order-1 {
-    display: flex;
-    order: 1;
-  }
-
-  .order-2 {
-    display: flex;
-    order: 2;
+  .ml-0-sm {
+    margin-left: 0;
   }
 }
 
 @media (max-width: 424px) {
-  :root {
-    --width-logo-banner: 50px;
+  .container,
+  .container-header,
+  .container-input,
+  .w-919,
+  .input,
+  iframe {
+    width: 355px;
   }
 
-  .section {
-    width: 375px;
+  .container-header {
+    padding: 50px 0;
   }
 
-  .font-size-36px {
-    font-size: 28px;
+  section img {
+    width: 355px;
+    height: 266px;
   }
 
-  .mx-50 {
-    margin-right: 37.5px;
-    margin-left: 37.5px;
+  .container-input {
+    height: 330px;
   }
 
-  .py-35 {
-    padding-top: 22px;
-    padding-bottom: 22px;
+  .line-height-100 {
+    line-height: 0.5em;
   }
 }
 
 @media (max-width: 374px) {
-  :root {
-    --height-header: 200px;
-    --width-logo-banner: 45px;
-    --default-font-size: 14px;
+  .container,
+  .container-header,
+  .container-input,
+  .w-919,
+  .input,
+  iframe {
+    width: 300px;
   }
 
-  .section {
-    width: 320px;
+  section img {
+    width: 300px;
+    height: 225px;
   }
 
-  .width-200 {
-    width: 160px;
+  h1 {
+    font-size: 40px;
   }
 
-  .legend {
-    font-size: 16px;
+  footer h3 {
+    font-size: 20px;
   }
 
-  .select {
-    width: 120px;
+  .card {
+    width: 300px;
   }
 
-  .font-size-36px {
-    font-size: 24px;
-  }
-
-  .mx-50 {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
-  .py-35 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .px-16 {
-    padding-left: 0;
-  }
-
-  .flex-direction-column-sm {
-    display: flex;
-    flex-direction: column;
+  .container-input {
+    height: 295px;
   }
 }
